@@ -16,9 +16,8 @@ $ErrorActionPreference = 'Stop'
 $WSDL = "/webservice/Manager?WSDL"
 $DSM_URI = "https://" + $Manager+ ":" + $Port + $WSDL
 
-#$HostName = "lt-ubuntu18"
-$HostID = "4601"
-$sID = "5BF3CE88-CDD2-69DD-ADA0-AF26F3B00760_681A287D7AA1866F769F780B23B68AFF"
+$HostID = ""
+$sID = ""
 
 [xml] $SoapRequest = '
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:Manager">
